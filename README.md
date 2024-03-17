@@ -1,8 +1,12 @@
-# js-lab-92
-### Lab92 Array: การหาตำแหน่ง
-จงหา array ของตำแหน่ง (index) ของ 'a' ใน alphabets
+# js-lab-93
+### Lab93 Array: Guess Result2
+ผลจากการรันคำสั่งในบรรทัด * คืออะไร
 
 ```JavaScript
-const alphabets = ['a', 'b', 'a', 'c', 'a', 'd'];
-// expexted result: [0, 2, 4]
+console.log([1, 2, 3].includes(2)); // *
+console.log([1, 2, 3].includes(4)); // **
+console.log([1, 2, 3].includes(3, 3)); // ***
+console.log([1, 2, 3].includes(3, -1)); // ****
+console.log([1, 2, NaN].includes(NaN)); // *****
+console.log(['1', '2', '3'].includes(3)); // ******
 ```
